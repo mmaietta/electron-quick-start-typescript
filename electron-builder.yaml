@@ -1,0 +1,31 @@
+
+asar: false
+includeSubNodeModules: false
+
+files:
+  - out/
+
+mac:
+  category: public.app-category.productivity
+  icon: App.icns
+  identity: null
+  artifactName: "${productName}-mac.${ext}"
+  type: distribution
+  gatekeeperAssess: false
+  hardenedRuntime: true
+  # entitlements: "build/entitlements.mac.plist"
+  # entitlementsInherit: "build/entitlements.mac.plist"
+  electronLanguages:
+    - en
+  extendInfo:
+    CFBundleLocalizations:
+      - en
+    NSCameraUsageDescription: "To enable the video during the Video Call"
+    NSMicrophoneUsageDescription: "To enable the audio during the Video Call"
+    NSRequiresAquaSystemAppearance: false
+  target:
+  - zip
+  # - dmg
+  # - mas
+  - mas-dev
+    

@@ -1,5 +1,7 @@
 import { app, BrowserWindow } from "electron";
 import * as path from "path";
+import * as _ from 'lodash'
+import * as __ from 'underscore'
 
 function createWindow() {
   // Create the browser window.
