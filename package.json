@@ -24,7 +24,7 @@
   "devDependencies": {
     "@types/lodash": "^4.14.171",
     "@types/underscore": "^1.11.3",
-    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
     "@typescript-eslint/parser": "^4.28.3",
     "electron": "^11",
     "eslint": "^7.30.0",
